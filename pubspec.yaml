@@ -1,0 +1,23 @@
+name: bloc_counter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  bloc:
+  
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+
+dev_dependencies:
+  bloc_test:
+  flutter_test:
+    sdk: flutter
+  
+
+flutter:
+  uses-material-design: true
